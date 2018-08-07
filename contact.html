@@ -1,0 +1,259 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      
+        tateshep.com | Contact
+      
+    </title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      
+    <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link href="bootstrap-docs/assets/css/toolkit-minimal.css" rel="stylesheet">
+    <link href="bootstrap-docs/assets/css/application-minimal.css" rel="stylesheet">
+    
+    <!--Favicon-->
+    <link rel="icon" href="images/ts-favicon.png">
+    
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      /* …curses ios, etc… */
+      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          width: 1px;
+          min-width: 100%;
+          *width: 100%;
+        }
+        #stage {
+          height: 1px;
+          overflow: auto;
+          min-height: 100vh;
+          -webkit-overflow-scrolling: touch;
+        }
+        
+         
+       
+      }
+        
+        
+        /*Begin Custom CSS*/
+        
+        
+        .gap-div {
+             height:100px;
+            position:relative;
+              
+          }
+        .gap-div-sm {
+             height:50px;
+            position:relative;
+              
+          }
+        .gap-div-lg{
+            height:350px;
+            position:relative;
+        }
+        
+        .carousel-img {
+            max-width: 100%;
+            height:auto;
+        }
+        .opacity-div{
+            opacity:0.7;
+        }
+        #hero-img{
+            width:50%;
+            height:50%;
+        }
+        
+    </style>
+  </head>
+
+
+<body>
+  
+
+
+
+<div class="container-fluid pt-4 fixed-top bg-white">
+  <nav class="navbar navbar-light navbar-toggleable-sm text-uppercase app-navbar mb-5">
+    <button
+      class="navbar-toggler navbar-toggler-right hidden-md-up"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand mr-auto" href="index.html">
+      <span>Tateshep.com</span>
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="about.html">About</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="">Portfolio</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+</nav>
+</div>
+
+
+<div class="block app-block-intro">
+    <div class="gap-div"></div>
+  <div  class="container text-xs-center mt-3">
+    <h1 class="block-title mb-0 text-uppercase app-myphone-brand">Contact Me</h1>
+    <p class="lead mb-5 pb-5">Get in touch to see how we can accelerate your business</p>
+    <div id="" class="container"><img  id="hero-img" class="max-width" src="images/ts-logo-retro.png"></div><div class="gap-div-lg hidden-md hidden-sm"></div>
+  </div>
+</div>
+
+
+<!--Contact Form Body -->
+ <div class="container mb-3">
+     <p class="lead text-xs-center">I invite you to contact me. Whether it is about a web design project, blockchain, or just about anything. I promise to be friendly!</p>
+     <div class="gap-div"></div>
+    <form>
+        <div class="form-group">
+        <label for="InputEmail">Email address</label>
+        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" required placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+        <label for="InputName">Name</label>
+        <input type="name" class="form-control" id="InputName" required placeholder="Name">
+        </div>
+        <div class="form-group">
+        <label for="InputSubject">Subject</label>
+        <input type="name" class="form-control" id="InputSubject" required placeholder="Write your subject here">
+        </div>
+         <div class="form-group">
+        <label for="InputMessage">Message</label>
+          <textarea type="textarea" class="form-control" id="InputMessage" required placeholder="Write your message here"></textarea>     
+        </div>
+        <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" required>
+          I Agree to the <a href="">Terms of Service</a>
+        </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button><span id="status"></span>
+    </form>
+</div>  
+    <!-- -->
+    
+    
+    
+    
+<div class="block block-bordered-lg text-center">
+  <div class="container-fluid">
+    <p class="lead mb-4">
+      Sign up for <strong>Tateshep.com Newsletter</strong>
+    </p>
+    <form class="form-inline d-flex justify-content-center">
+      <input class="form-control mb-3" placeholder="email address">
+      <input class="form-control mb-3 mx-1" type="password" placeholder="Name">
+      <button id="mybtn" class="btn btn-dark mb-3">Get started</button>
+    </form>
+    <small class="text-muted">
+      By clicking "Get started" I agree to tateshep.com's
+      <a href="#">Terms of service</a>
+    </small>
+  </div>
+</div>
+
+<div class="block app-block-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 mb-4">
+        <ul class="list-unstyled list-spaced">
+          <li><h6 class="text-uppercase">Products</h6></li>
+          <li>Custom Templates</li>
+          <li>Old Site Rebuilds</li>
+          <li>Small Business Sites</li>
+          <li>Landing Pages</li>
+          <li>Portfolios</li>
+        </ul>
+      </div>
+     
+      <div class="col-sm-2 mb-4">
+        <ul class="list-unstyled list-spaced">
+          <li><h6 class="text-uppercase">Support</h6></li>
+                <li>Bootstrap 4</li>
+                <li>Wordpress</li>
+                <li>Squarespace</li>
+                <li>Shopify</li>
+        </ul>
+      </div>
+       <div class="col-sm-6">
+        <h6 class="text-uppercase">Contact</h6>
+        <p>Please feel welcome to<a href=""> Contact Me </a>about anything you might want. Be it a web project, questions, concerns, or just a friendly conversation!</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+        <!--Contact Form Script -->
+<script>
+    function _(id){ return document.getElementById(id); }
+function submitForm(){
+	_("mybtn").disabled = true;
+	_("status").innerHTML = 'please wait ...';
+	var formdata = new FormData();
+	formdata.append( "n", _("n").value );
+	formdata.append( "e", _("e").value );
+	formdata.append( "m", _("m").value );
+	var ajax = new XMLHttpRequest();
+	ajax.open( "POST", "contact_parser.php" );
+	ajax.onreadystatechange = function() {
+		if(ajax.readyState == 4 && ajax.status == 200) {
+			if(ajax.responseText == "success"){
+				_("my_form").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>';
+			} else {
+				_("status").innerHTML = ajax.responseText;
+				_("mybtn").disabled = false;
+			}
+		}
+	}
+	ajax.send( formdata );
+}
+</script> 
+    
+    
+
+    <script src="bootstrap-docs/assets/js/jquery.min.js"></script>
+    <script src="bootstrap-docs/assets/js/tether.min.js"></script>
+    <script src="bootstrap-docs/assets/js/toolkit.js"></script>
+    <script src="bootstrap-docs/assets/js/application.js"></script>
+    
+  </body>
+</html>
+
